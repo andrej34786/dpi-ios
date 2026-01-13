@@ -81,10 +81,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
     
     func getVPNStatus() -> NEVPNStatus {
-        guard let managers = try? NETunnelProviderManager.loadAllFromPreferences(),
-              let manager = managers.first else {
-            return .invalid
+        var status: NEVPNStatus = .invalid
+        let semaphore = DispatchSemaphore(value: 0)
+        
+        NETunnelProviderManager.loadAllFromPreferences { managers, _ in
+            if let managers = managers, let manager = managers.first {
+                status = manager.connection.status
+            }
+            semaphore.signal()
         }
-        return manager.connection.status
+        
+        semaphore.wait()
+        return status
     }
 }
