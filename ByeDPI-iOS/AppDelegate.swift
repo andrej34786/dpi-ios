@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             
             // Configure the tunnel
             let providerProtocol = NETunnelProviderProtocol()
-            providerProtocol.providerBundleIdentifier = "com.example.ByeDPIiOS.ByeDPI-Packet-Tunnel"
+            providerProtocol.providerBundleIdentifier = "com.andrej34786.ByeDPIiOS.ByeDPI-Packet-Tunnel"
             providerProtocol.serverAddress = "ByeDPI Tunnel"
             
             manager.protocolConfiguration = providerProtocol
