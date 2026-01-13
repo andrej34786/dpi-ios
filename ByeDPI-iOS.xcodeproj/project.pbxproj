@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		13E4619A2A1F4F1E008D1E57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E461992A1F4F1E008D1E57 /* AppDelegate.swift */; };
+		13E4619C2A1F4F1E008D1E57 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E4619B2A1F4F1E008D1E57 /* SceneDelegate.swift */; };
+		13E4619E2A1F4F1E008D1E57 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E4619D2A1F4F1E008D1E57 /* ContentView.swift */; };
+		13E461A02A1F4F1E008D1E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13E4619F2A1F4F1E008D1E57 /* Assets.xcassets */; };
+		13E461A32A1F4F1E008D1E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13E461A12A1F4F1E008D1E57 /* LaunchScreen.storyboard */; };
+		13E461AB2A1F4F2D008D1E57 /* PacketTunnelProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13E461AA2A1F4F2D008D1E57 /* PacketTunnelProvider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13E461962A1F4F1E008D1E57 /* ByeDPI-iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ByeDPI-iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E461992A1F4F1E008D1E57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13E4619B2A1F4F1E008D1E57 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13E4619D2A1F4F1E008D1E57 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		13E4619F2A1F4F1E008D1E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13E461A22A1F4F1E008D1E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13E461A42A1F4F1E008D1E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13E461A62A1F4F2D008D1E57 /* ByeDPI-Packet-Tunnel.appex */ = {isa = PBXFileReference; explicitFileType = wrapper.app-extension; includeInIndex = 0; path = "ByeDPI-Packet-Tunnel.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13E461AA2A1F4F2D008D1E57 /* PacketTunnelProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacketTunnelProvider.swift; sourceTree = "<group>"; };
+		13E461AC2A1F4F2D008D1E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13E461932A1F4F1E008D1E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E461A72A1F4F2D008D1E57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13E4618D2A1F4F1E008D1E57 = {
+			isa = PBXGroup;
+			children = (
+				13E461982A1F4F1E008D1E57 /* ByeDPI-iOS */,
+				13E461A92A1F4F2D008D1E57 /* ByeDPI-Packet-Tunnel */,
+				13E461972A1F4F1E008D1E57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		13E461972A1F4F1E008D1E57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13E461962A1F4F1E008D1E57 /* ByeDPI-iOS.app */,
+				13E461A62A1F4F2D008D1E57 /* ByeDPI-Packet-Tunnel.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13E461982A1F4F1E008D1E57 /* ByeDPI-iOS */ = {
+			isa = PBXGroup;
+			children = (
+				13E461992A1F4F1E008D1E57 /* AppDelegate.swift */,
+				13E4619B2A1F4F1E008D1E57 /* SceneDelegate.swift */,
+				13E4619D2A1F4F1E008D1E57 /* ContentView.swift */,
+				13E4619F2A1F4F1E008D1E57 /* Assets.xcassets */,
+				13E461A12A1F4F1E008D1E57 /* LaunchScreen.storyboard */,
+				13E461A42A1F4F1E008D1E57 /* Info.plist */,
+			);
+			path = "ByeDPI-iOS";
+			sourceTree = "<group>";
+		};
+		13E461A92A1F4F2D008D1E57 /* ByeDPI-Packet-Tunnel */ = {
+			isa = PBXGroup;
+			children = (
+				13E461AA2A1F4F2D008D1E57 /* PacketTunnelProvider.swift */,
+				13E461AC2A1F4F2D008D1E57 /* Info.plist */,
+			);
+			path = "ByeDPI-Packet-Tunnel";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13E461952A1F4F1E008D1E57 /* ByeDPI-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13E461C02A1F4F1E008D1E57 /* Build configuration list for PBXNativeTarget "ByeDPI-iOS" */;
+			buildPhases = (
+				13E461922A1F4F1E008D1E57 /* Sources */,
+				13E461932A1F4F1E008D1E57 /* Frameworks */,
+				13E461942A1F4F1E008D1E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ByeDPI-iOS";
+			productName = "ByeDPI-iOS";
+			productReference = 13E461962A1F4F1E008D1E57 /* ByeDPI-iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13E461A52A1F4F2D008D1E57 /* ByeDPI-Packet-Tunnel */ = {
+		isa = PBXNativeTarget;
+			buildConfigurationList = 13E461C32A1F4F2D008D1E57 /* Build configuration list for PBXNativeTarget "ByeDPI-Packet-Tunnel" */;
+			buildPhases = (
+				13E461A82A1F4F2D008D1E57 /* Sources */,
+				13E461A72A1F4F2D008D1E57 /* Frameworks */,
+				13E461AF2A1F4F2D008D1E57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ByeDPI-Packet-Tunnel";
+			productName = "ByeDPI-Packet-Tunnel";
+			productReference = 13E461A62A1F4F2D008D1E57 /* ByeDPI-Packet-Tunnel.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13E4618E2A1F4F1E008D1E57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					13E461952A1F4F1E008D1E57 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					13E461A52A1F4F2D008D1E57 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 13E461912A1F4F1E008D1E57 /* Build configuration list for PBXProject "ByeDPI-iOS" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13E4618D2A1F4F1E008D1E57;
+			productRefGroup = 13E461972A1F4F1E008D1E57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13E461952A1F4F1E008D1E57 /* ByeDPI-iOS */,
+				13E461A52A1F4F2D008D1E57 /* ByeDPI-Packet-Tunnel */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13E461942A1F4F1E008D1E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E461A02A1F4F1E008D1E57 /* Assets.xcassets in Resources */,
+				13E461A32A1F4F1E008D1E57 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E461AF2A1F4F2D008D1E57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13E461922A1F4F1E008D1E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E4619A2A1F4F1E008D1E57 /* AppDelegate.swift in Sources */,
+				13E4619C2A1F4F1E008D1E57 /* SceneDelegate.swift in Sources */,
+				13E4619E2A1F4F1E008D1E57 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13E461A82A1F4F2D008D1E57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13E461AB2A1F4F2D008D1E57 /* PacketTunnelProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		13E461BE2A1F4F1E008D1E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "ByeDPI-iOS/ByeDPI-iOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13E461BF2A1F4F1E008D1E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_ENTITLEMENTS = "ByeDPI-iOS/ByeDPI-iOS.entitlements";
+				CODE_SIGN_IDENTITY = "Apple Development";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13E461C12A1F4F1E008D1E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ByeDPI-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ByeDPI iOS";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ByeDPIiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13E461C22A1F4F1E008D1E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ByeDPI-iOS/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ByeDPI iOS";
+				INFOPLIST_KEY_LSRequiresIPhoneOS = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs camera access";
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIRequiredDeviceCapabilities = arm64;
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleLightContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ByeDPIiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13E461C42A1F4F2D008D1E57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_ENTITLEMENTS = "ByeDPI-Packet-Tunnel/ByeDPI-Packet-Tunnel.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ByeDPI-Packet-Tunnel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ByeDPIiOS.ByeDPI-Packet-Tunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ByeDPI-iOS.app/ByeDPI-iOS";
+			};
+			name = Debug;
+		};
+		13E461C52A1F4F2D008D1E57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_ENTITLEMENTS = "ByeDPI-Packet-Tunnel/ByeDPI-Packet-Tunnel.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "ByeDPI-Packet-Tunnel/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.ByeDPIiOS.ByeDPI-Packet-Tunnel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ByeDPI-iOS.app/ByeDPI-iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13E461912A1F4F1E008D1E57 /* Build configuration list for PBXProject "ByeDPI-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E461BE2A1F4F1E008D1E57 /* Debug */,
+				13E461BF2A1F4F1E008D1E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E461C02A1F4F1E008D1E57 /* Build configuration list for PBXNativeTarget "ByeDPI-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E461C12A1F4F1E008D1E57 /* Debug */,
+				13E461C22A1F4F1E008D1E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13E461C32A1F4F2D008D1E57 /* Build configuration list for PBXNativeTarget "ByeDPI-Packet-Tunnel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13E461C42A1F4F2D008D1E57 /* Debug */,
+				13E461C52A1F4F2D008D1E57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 13E4618E2A1F4F1E008D1E57 /* Project object */;
+}

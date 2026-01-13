@@ -1,0 +1,20 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "colors" : [
+    {
+      "idiom" : "universal",
+      "name" : "AccentColor"
+    }
+  ],
+  "images" : [
+    {
+      "filename" : "AppIcon.appiconset",
+      "idiom" : "universal",
+      "name" : "AppIcon",
+      "role" : "primary"
+    }
+  ]
+}
